@@ -36,7 +36,7 @@
                                 owl:versionInfo "Version 1.1"@en .
 
 #################################################################
-#    Annotation properties
+#    Annotation properties with a small comment
 #################################################################
 
 ###  http://purl.org/dc/elements/1.1/description
@@ -50,7 +50,8 @@ dc:source rdf:type owl:AnnotationProperty .
 ###  http://purl.org/dc/elements/1.1/title
 dc:title rdf:type owl:AnnotationProperty .
 
-
+#This is a contributor ontology
+#and this comment helps to clarify it
 ###  http://purl.org/dc/terms/contributor
 terms:contributor rdf:type owl:AnnotationProperty .
 
